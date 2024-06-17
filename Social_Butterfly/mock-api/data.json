@@ -1,0 +1,29 @@
+{
+  "user": [
+    {
+      "id": "e594",
+      "email": "vidushic0@gmail.com",
+      "userName": "Vidushi",
+      "password": "123456"
+    },
+    {
+      "id": "7b3e",
+      "email": "rohan@gmail.com",
+      "userName": "rohani",
+      "password": "kartik"
+    },
+    {
+      "id": "fe85",
+      "email": "Raghav@gmail.com",
+      "userName": "Rags",
+      "password": "hello123"
+    },
+    {
+      "id": "dbcc",
+      "email": "vidushic@gmail.com",
+      "userName": "Vidushi",
+      "password": "Jaipal@1234"
+    }
+  ],
+  "posts": []
+}

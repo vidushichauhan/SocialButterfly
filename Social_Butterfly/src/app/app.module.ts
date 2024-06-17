@@ -12,14 +12,19 @@ import {MatInputModule} from '@angular/material/input';
 import { CreateAccountComponent } from './pages/create-account/create-account.component';
 import {ReactiveFormsModule,FormsModule} from '@angular/forms';
 import { CommonModule } from '@angular/common';
-
+import {HttpClientModule} from '@angular/common/http'
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { PostsComponent } from './pages/posts/posts.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
     LoginComponent,
-    CreateAccountComponent
+    CreateAccountComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,11 @@ import { CommonModule } from '@angular/common';
     MatInputModule,
     ReactiveFormsModule,
     FormsModule,
-    CommonModule
+    CommonModule,
+    HttpClientModule,
+    MatSnackBarModule,
+    MatIconModule,
+    MatMenuModule
   ],
   providers: [
     provideClientHydration(),
