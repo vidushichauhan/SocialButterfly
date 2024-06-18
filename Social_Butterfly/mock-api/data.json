@@ -25,5 +25,22 @@
       "password": "Jaipal@1234"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "af77",
+      "text": "This is new for me",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/social-butterfly-a9c4c.appspot.com/o/images%2F1718721178902?alt=media&token=180668bc-de49-4dd8-9f18-c689ce02c094",
+      "likes": [
+        "e594"
+      ],
+      "comments": []
+    },
+    {
+      "id": "07b4",
+      "text": "butterfly",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/social-butterfly-a9c4c.appspot.com/o/images%2F1718722140068?alt=media&token=3bb18648-7114-47ae-b8f9-9351a57010cf",
+      "likes": [],
+      "comments": []
+    }
+  ]
 }

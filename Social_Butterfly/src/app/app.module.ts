@@ -17,14 +17,20 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { PostsComponent } from './pages/posts/posts.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
-
+import {MatCardModule} from '@angular/material/card';
+import { AngularFireModule } from "@angular/fire/compat";
+import { AngularFireAuthModule } from "@angular/fire/compat/auth";
+import { AngularFireStorageModule } from '@angular/fire/compat/storage';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { MaterialFileInputModule } from 'ngx-material-file-input';
+import { environment } from '../environments/environment.development';
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
     LoginComponent,
     CreateAccountComponent,
-    PostsComponent
+    PostsComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +44,11 @@ import {MatMenuModule} from '@angular/material/menu';
     HttpClientModule,
     MatSnackBarModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatCardModule,
+    AngularFireModule.initializeApp(environment.fireBaseConfig),
+    MaterialFileInputModule,
+    AngularFireStorageModule,
   ],
   providers: [
     provideClientHydration(),
