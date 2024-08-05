@@ -1,4 +1,4 @@
-SocialButterfly
+###SocialButterfly
 
 SocialButterfly is a dynamic social media platform built with Angular. Users can create profiles, post updates, interact with other users, and more. This project leverages Angular's powerful features for building responsive and interactive user interfaces.
 
